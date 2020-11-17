@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d75ccd83-65a9-40e1-966a-6f10a828ee89" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kNNKNTdGKZvLEzLw6bFF7fLm7a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d75ccd83-65a9-40e1-966a-6f10a828ee89" name="Default Changelist" comment="" />
+      <created>1605537024305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605537024305</updated>
+      <workItem from="1605537025403" duration="1716000" />
+      <workItem from="1605598267473" duration="348000" />
+      <workItem from="1605604669269" duration="295000" />
+      <workItem from="1605605023124" duration="59000" />
+      <workItem from="1605605237555" duration="407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="30" key="#HTML" timestamp="1605545381835">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="233" y="30" key="#HTML/0.23.1920.977@0.23.1920.977" timestamp="1605545381835" />
+    <state x="604" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605598278639">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="604" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.977@0.23.1920.977" timestamp="1605598278639" />
+    <state x="450" y="278" key="SettingsEditor" timestamp="1605556547564">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="450" y="278" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1605556547564" />
+    <state x="353" y="183" width="670" height="676" key="search.everywhere.popup" timestamp="1605604594895">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="353" y="183" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1605604594895" />
+  </component>
+</project>
