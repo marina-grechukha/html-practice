@@ -36,10 +36,16 @@
 
 <p><b>Bold text</b> and <strong>Important text</strong></p>
 <p><i>Italic text</i> and <em>Emphasized text</em></p>
-<p><mark>Marked text</mark></p>
+<p>
+  <mark>Marked text</mark>
+</p>
 <p><small>Smaller text</small></p>
-<p><del>Deleted text</del></p>
-<p><ins>Inserted text</ins></p>
+<p>
+  <del>Deleted text</del>
+</p>
+<p>
+  <ins>Inserted text</ins>
+</p>
 <p><sub>Subscript text</sub> and <sup>Superscript text</sup></p>
 
 <hr>
@@ -97,7 +103,8 @@
 
 <p>The image below is a link to Google. Try to click on it.</p>
 <a href="https://www.google.com" target="_blank">
-  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="image link to google" style="height:20px;">
+  <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+       alt="image link to google" style="height:20px;">
 </a>
 <hr>
 
@@ -118,7 +125,8 @@
 <br><br>
 
 <label for="phone">Phone with required pattern:</label>
-<input type="tel" id="phone" name="phone" placeholder="123-456-78-90" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+<input type="tel" id="phone" name="phone" placeholder="123-456-78-90" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+       required>
 <br><br>
 
 <label for="url-input">Url:</label>
@@ -191,13 +199,49 @@
 
 <h3>Random image</h3>
 <img src="https://source.unsplash.com/random" alt="random-img" height="300px">
+<hr>
 
+<!--==========================-->
+
+<h3>Audio</h3>
+<audio controls>
+  <source src="https://www.computerhope.com/jargon/m/example.mp3"/>
+</audio>
+<hr>
+
+<!--==========================-->
+
+<h3>Video</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DxgMJPmM1Hg" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+<hr>
 <!--==========================-->
 
 <h3>Iframe - Target for a Link</h3>
 <p><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="iframe_a">Click here to open
   Bootstrap Documentation in frame</a></p>
 <iframe name="iframe_a" style="height: 300px; width: 500px" title="Iframe Example"></iframe>
+<hr>
+
+<!--==========================-->
+
+<h3>Canvas</h3>
+<canvas id="simpleCanvas" width="200" height="100" style="border:1px solid red;"></canvas>
+
+<canvas id="myCanvas" width="200" height="100"
+        style="border:1px solid #d3d3d3;">
+  Your browser does not support the canvas element.
+</canvas>
+
+<script>
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.fillText("Hello World",10,50);
+</script>
+
+
 </body>
 
 </html>
