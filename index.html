@@ -3,6 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>My HTML</title>
+  <style>
+      table {
+          font-family: arial, sans-serif;
+      }
+
+      table, th, td {
+          border: 1px solid black;
+      }
+
+      th, td {
+          padding: 5px;
+          text-align: left;
+          line-height: 30px;
+          width: 150px;
+      }
+  </style>
 </head>
 <body>
 <h1>HTML practice</h1>
@@ -52,9 +68,9 @@
 
 <!--==========================-->
 
-<h3>Simple table with links</h3>
-<table border="1px">
-  <caption>Table caption</caption>
+<h3>Tables</h3>
+<table>
+  <caption>Simple table with links</caption>
   <tr>
     <th>Name</th>
     <th>Email</th>
@@ -65,6 +81,84 @@
     <td><a href="mailto:someone@example.com">someone@example.com</a></td>
     <td><a href="tel:+4733378901">+47 333 78 901</a>
     </td>
+  </tr>
+</table>
+
+<br><br>
+
+<table style="border-collapse: collapse">
+  <caption>A complex table</caption>
+  <tr style="background: #eee">
+    <th colspan="3">Invoice#123456789</th>
+    <th>14 January 2020</th>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Pay to:</b><br>
+      Acne Billing Co. <br>
+      123 Main St. <br>
+      Citiville, NA 12345
+    </td>
+    <td colspan="2">
+      <b>Customer:</b><br>
+      Acne Billing Co. <br>
+      123 Main St. <br>
+      Citiville, NA 12345
+    </td>
+  </tr>
+  <tr style="background: #eee">
+    <td>Name/Description</td>
+    <td>Qty.</td>
+    <td>@</td>
+    <td>Cost</td>
+  </tr>
+  <tr>
+    <td>Paperclips</td>
+    <td>1000</td>
+    <td>0.01</td>
+    <td>10.00</td>
+  </tr>
+  <tr>
+    <td>Staples (box)</td>
+    <td>100</td>
+    <td>1.00</td>
+    <td>100.00</td>
+  </tr>
+  <tr>
+    <td colspan="3" style="background: #eee">Subtotal</td>
+    <td>110.00</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="background: #eee">Tax</td>
+    <td>8%</td>
+    <td>8.80</td>
+  </tr>
+  <tr>
+    <td colspan="3" style="background: #eee">Grand Total</td>
+    <td>$ 118.80</td>
+  </tr>
+</table>
+
+<br><br>
+
+<table style="border-spacing: 15px; background: #eee">
+  <caption>A table with spaces and colors</caption>
+  <tr>
+    <td colspan="3" style="background: red">red</td>
+    <td style="background: orange">orange</td>
+  </tr>
+  <tr>
+    <td colspan="2" style="background: yellow ">
+      yellow
+    </td>
+    <td style="background: green">
+      green
+    </td>
+    <td rowspan="2" style="background: skyblue">skyblue</td>
+  <tr>
+    <td style="background: blue">blue</td>
+    <td style="background: purple">purple</td>
+    <td style="background: grey">grey</td>
   </tr>
 </table>
 <hr>
